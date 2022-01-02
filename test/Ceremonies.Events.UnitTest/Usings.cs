@@ -1,0 +1,13 @@
+﻿global using Ceremonies.Events.Core.Entities;
+global using System;
+global using System.Collections.Generic;
+global using Xunit;
+global using AutoMapper;
+global using Ceremonies.Events.Core.Interfaces;
+global using Ceremonies.Events.Core.Services.Commands;
+global using Moq;
+global using System.Threading;
+global using System.Threading.Tasks;
+global using Ceremonies.Events.Api.Controllers;
+global using MediatR;
+global using Ceremonies.Events.Core.Services.Queries.GetOccasionByCity;

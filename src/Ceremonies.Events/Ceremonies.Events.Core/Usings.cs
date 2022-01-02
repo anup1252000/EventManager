@@ -1,0 +1,17 @@
+﻿global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Text;
+global using System.Threading.Tasks;
+global using Ceremonies.Events.Core.Entities;
+global using Microsoft.EntityFrameworkCore;
+global using AutoMapper;
+global using Ceremonies.Events.Core.Interfaces;
+global using System.Reflection;
+global using FluentValidation;
+global using MediatR;
+global using Microsoft.Extensions.DependencyInjection;
+global using Ardalis.GuardClauses;
+global using Ceremonies.Events.Core.Services.Commands;
+global using AutoMapper.QueryableExtensions;
+global using Ceremonies.Events.Core.Services.Queries.GetOccasionByCity;
